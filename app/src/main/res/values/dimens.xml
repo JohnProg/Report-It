@@ -6,4 +6,12 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="card_post_radius">0dp</dimen>
+    <dimen name="post_image_height">160dp</dimen>
+    <dimen name="post_title_padding">10dp</dimen>
+    <dimen name="comments_padding_bottom">5dp</dimen>
+    <dimen name="comments_size_count">12dp</dimen>
 </resources>

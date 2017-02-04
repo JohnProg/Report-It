@@ -7,14 +7,14 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 import com.example.johnmachahuay.reportit.Fragments.TabFragment1;
 import com.example.johnmachahuay.reportit.Fragments.TabFragment2;
-import com.example.johnmachahuay.reportit.MainActivity;
 import com.example.johnmachahuay.reportit.R;
+import com.example.johnmachahuay.reportit.activity.HomeActivity;
 
 
 public class TabsAdapter extends FragmentPagerAdapter {
     private Context context;
 
-    public TabsAdapter(MainActivity mainActivity, FragmentManager supportFragmentManager) {
+    public TabsAdapter(HomeActivity mainActivity, FragmentManager supportFragmentManager) {
         super(supportFragmentManager);
         this.context = mainActivity;
     }
